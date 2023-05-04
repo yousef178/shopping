@@ -374,3 +374,46 @@ header {
   cursor: pointer;
   text-decoration: none;
 }
+/*Media Screen */
+@media screen and (max-width: 900px) {
+  .details .container {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+  }
+  .details .image img {
+    width: 98%;
+  }
+  .logo {
+  }
+}
+@media screen and (max-width: 900px) {
+  .logo {
+    max-width: 95%;
+    overflow: hidden;
+  }
+}
+@media screen and (max-width: 500px) {
+  .container {
+    max-width: 100%;
+    margin: auto;
+  }
+  .details .image img {
+    width: 98%;
+  }
+  .login-container {
+    display: inline-block;
+    width: 100%;
+    padding: 5px 5px;
+    height: 150px;
+  }
+}
+@media screen and (max-width: 800px) {
+  .login-container {
+    max-width: 100%;
+  }
+  .login-container .login-box input {
+    width: 500px;
+    height: 20px;
+  }
+}
